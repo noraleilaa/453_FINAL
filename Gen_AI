@@ -1,0 +1,46 @@
+import wikipedia
+
+from transformers import pipeline
+question_answering = pipeline("question-answering")
+
+def download_wikipedia_article(page_title):
+    try:
+        page = wikipedia.page(page_title)
+        return page.content
+    except wikipedia.exceptions.PageError as e:
+        return f"Page not found: {e}"
+    
+
+# Example usage
+context = download_wikipedia_article("Greek mythology")
+print(context[:500])  # Print first 500 characters to check
+
+question1 = 'What is Greek mythology?'
+
+question2 = 'Who is Zues?'
+
+question3 = 'What group of individuals have derived inspiration from Greek Mythology?'
+
+question4 = 'Who was Hesiod to Homer?'
+
+question5 = 'Why has Greek mythology changed over time?'
+
+result = question_answering(question=question1, context=context)
+print("Answer:", result['answer'])
+print("Score:", result['score'])
+
+result2 = question_answering(question=question2, context=context)
+print("Answer:", result2['answer'])
+print("Score:", result2['score'])
+
+result3 = question_answering(question=question3, context=context)
+print("Answer:", result3['answer'])
+print("Score:", result3['score'])
+
+result4 = question_answering(question=question4, context=context)
+print("Answer:", result4['answer'])
+print("Score:", result4['score'])
+
+result5 = question_answering(question=question5, context=context)
+print("Answer:", result5['answer'])
+print("Score:", result5['score'])
