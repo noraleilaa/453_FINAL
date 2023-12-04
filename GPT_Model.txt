@@ -1,0 +1,14 @@
+question1 = 'What is Greek mythology?'
+Greek mythology is a collection of myths and stories that were passed down by the ancient Greeks. These myths revolve around the gods, heroes, and mythological creatures of Greek religion. They delve into the origins of the world and the lives of the deities and heroes. Greek mythology has had a profound impact on Western civilization, shaping its culture, arts, and literature. It continues to be a vital component of Western heritage and language.
+
+question2 = 'Who is Zues?'
+Zeus is a central figure in Greek mythology, known for his power and authority as the ruler of the gods and the sky. He is often depicted as a bearded man holding a thunderbolt, symbolizing his association with thunder and lightning. Zeus is responsible for the protection of both gods and mortals, and his role in many myths highlights his significance in Greek mythology.
+
+question3 = 'What group of individuals have derived inspiration from Greek Mythology?'
+Various individuals and cultures have derived inspiration from Greek mythology, including poets, artists, and scholars throughout history.
+
+question4 = 'Who was Hesiod to Homer?'
+Hesiod and Homer were both ancient Greek poets who lived around the same time.
+
+question5 = 'Why has Greek mythology changed over time?'
+Greek mythology has changed over time due to the influences from other cultures and the evolving beliefs and values of Greek society. The myths have been shaped by the political, social, and moral changes that occurred throughout history. As new tribes arrived and conquest and heroism became important, the pantheon of gods shifted to reflect these new values. The earlier focus on animism and nature spirits gave way to a greater emphasis on heroic tales and the exploits of mortal heroes. Additionally, during the Hellenistic and Roman periods, the myths were adapted for literary purposes, further altering their narratives. These changes in Greek mythology allowed it to remain relevant and resonate with the evolving cultural context.
